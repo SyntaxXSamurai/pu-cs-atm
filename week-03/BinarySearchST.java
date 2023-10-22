@@ -2,6 +2,7 @@
  * @author Robert Sedgewick and Kevin Wayne
  */
 
+ @SuppressWarnings("unchecked")
 public class BinarySearchST<Key extends Comparable<Key>, Value> {
     private static final int INIT_SIZE = 8;
 
